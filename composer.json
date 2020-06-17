@@ -1,0 +1,29 @@
+{
+    "name": "wanglanyin/laravel_curd_trait",
+    "authors": [
+        {
+            "name": "Lany",
+            "email": "wlany@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lany\\LaravelCurd\\LaravelCurdServiceProvider"
+            ],
+            "aliases": {
+                "LCurd": "Lany\\LaravelCurd\\Facade\\LaravelCurd"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lany\\LaravelCurd\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": ">=7.0",
+        "laravel/framework": ">=5.5",
+        "php": ">=7.0.0"
+    }
+}
